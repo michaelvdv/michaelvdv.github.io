@@ -56,7 +56,7 @@ body{
 .container4 h1 {
     margin: 0;
     color:#eaedf2;
-    font-size: 50px;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,7 +65,7 @@ body{
 
 #learn_button{
   left:50%;
-  top:60%;
+  top:30em;
   position: absolute;
   transform: translate(-50%,-50%);
 }
