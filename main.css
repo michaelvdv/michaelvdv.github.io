@@ -23,6 +23,7 @@ body{
    height:40px;
    display:block;
    position:fixed;
+   z-index: 1000;
    top:0;
    left:0;
    background-color: rgb(18,17,23);
