@@ -5,9 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
   <link rel="stylesheet" href="main.css">
 
 </head>
@@ -28,8 +25,9 @@
            <button type="button" class="btn btn-default"  id="menu_button">
            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"</span></button>
            <ul class="dropdown-menu" role="menu">
-             <li><a href="#">Tablet</a></li>
-             <li><a href="#">Smartphone</a></li>
+             <li><a id="mis_but">Mission</a></li>
+             <li><a id="team_but">Team</a></li>
+             <li><a id="project_but">Project</a></li
            </ul>
 <!--           <ul class="menu_items">
             <li>More information</li>
@@ -43,25 +41,57 @@
 
 <div class="page">
   <div class="container">
+    <h1 id="mission"> Our mission</h1>
+    <p> We are a team of students from the Big Data track of the Honors academy
+      at the TU/e. Our goal is to provide good data analysises and become great data
+      scientists.
+  </div>
+
+
+  <div class="container">
     <h1 id="meet"> Meet our team</h1>
     <div class="row">
       <div class="col-sm-4">
-        <h2>Casper</h2>
-      </div>
-
-
-      <div class="col-sm-4">
-        <h2>Tom</h2>
-      </div>
-
-
-      <div class="col-sm-4">
-        <h2>Michael</h2>
-        <div class="box3">
-          <img src="Michael.jpg" class="images">
+        <h2>LaLa</h2>
+          <div class="box3">
+          <img src="lala.jpg" class="images">
           <div class="text4">
           <h3> About me</h3>
-          <p> Hi, my name is Michael van der Veen.
+          <p> Hi, my name is I am anonymous.
+            I am 20 years old and I am a industrial engineering major.
+            In team Magna, I will specialise myself in visualising and explaning the data
+            to external parties. </p>
+          </div>
+          <h3 class="text3"> Click for more info</h3>
+
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <h2>Dipsy</h2>
+          <div class="box3">
+          <img src="dipsy.jpg" class="images">
+          <div class="text4">
+          <h3> About me</h3>
+          <p> Hi, my name is I am anonymous.
+            I am 20 years old and I am a psychology and technology major.
+            In team Magna, I will specialise myself in making predictive analysises
+            and machine learning. </p>
+          </div>
+          <h3 class="text3"> Click for more info</h3>
+
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <h2>Tinky Winky</h2>
+        <div class="box3">
+          <img src="tinky.jpg" class="images">
+          <div class="text4">
+          <h3> About me</h3>
+          <p> Hi, my name is I am anonymous.
             I am 20 years old and I am a computer science major.
             In team Magna, I will specialise myself in preprocessing and cleaning data. </p>
           </div>
@@ -76,7 +106,7 @@
 
   <div class="container">
     <div class="project">
-      <h1> Our projects </h1>
+      <h1 id="proj"> Our projects </h1>
       <div class="row">
         <div class="col-sm-6">
           <h2> Coming soon! </h2>
@@ -93,13 +123,15 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6">
-                  <p id="foot_title"> All rights reserved, by MvdV©</p>
+                  <p id="foot_title"> All rights reserved, by AnoniempjeXOXO©</p>
                 </div>
                 <div class="col-sm-6">
                 </div>
             </div>
         </div>
   </footer>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
