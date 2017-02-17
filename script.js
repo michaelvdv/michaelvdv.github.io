@@ -3,6 +3,9 @@ $(document).ready(function(){
   $('.text3').hide();
   $('.text4').hide();
 
+$("#menu_button").on('click', function(){
+  $(this).next().slideToggle('400');
+});
 
   $("#mis_but").click(function() {
     var offset = 30;
