@@ -66,7 +66,7 @@ body{
 
 #learn_button{
   left:50%;
-  top:30em;
+  top:55%;
   position: absolute;
   transform: translate(-50%,-50%);
 }
